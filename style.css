@@ -1,0 +1,71 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+header{
+    background-color: #ffcc26;
+}
+
+nav{
+    width: 100%;
+    height: 50px;
+    position: relative;
+}
+
+.logo{
+    float: left;
+    padding: 15px;
+    font-size: 25px;
+}
+
+ul{
+    width: 100%;
+    position: absolute;
+    display: flex;
+    left: 120px;
+}
+
+ul li{
+margin: 10px;
+list-style-type: none;
+}
+
+main{
+    background-color: #ff9626;
+}
+
+#Home, #About, #Gallery, #Contact{
+    width: 100%;
+    height: 500px;
+}
+
+#topleft, #topright, #middle2right, #middle2top{
+    height: 100%;
+    width: 50%;
+    border: 1px solid black;
+    padding: 10px;
+  
+}
+
+#Home{
+    display: flex;
+}
+
+#topleft{
+    line-height: 10px;
+}
+
+#topleft h3{
+    font-size: 50px;
+}
+
+#About{
+    display: flex;
+}
+
+#middlewords{
+    width: 100px;
+    height: 100px;
+}
